@@ -206,8 +206,8 @@ class ProjectItem
   }
 
   configure() {
-    this.element, addEventListener("dragstart", this.dragStartHandler);
-    this.element, addEventListener("dragend", this.dragEndHandler);
+    this.element.addEventListener("dragstart", this.dragStartHandler);
+    this.element.addEventListener("dragend", this.dragEndHandler);
   }
 
   renderContent(): void {
