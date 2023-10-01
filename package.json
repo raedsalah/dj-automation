@@ -1,0 +1,19 @@
+{
+  "name": "daily-journal-organizer",
+  "version": "1.0.0",
+  "description": "automating daily journal for aleph labs",
+  "main": "app.js",
+  "scripts": {
+    "start": "concurrently \"lite-server\" \"tsc --watch\""
+  },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "raed",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "lite-server": "^2.5.4"
+  }
+}
